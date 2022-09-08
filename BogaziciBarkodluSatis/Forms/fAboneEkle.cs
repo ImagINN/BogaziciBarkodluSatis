@@ -8,19 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BogaziciBarkodluSatis
+namespace BogaziciBarkodluSatis.Forms
 {
-    public partial class fSatis : Form
+    public partial class fAboneEkle : Form
     {
-        public fSatis()
+        public fAboneEkle()
         {
             InitializeComponent();
         }
-
-        private void fSatis_Load(object sender, EventArgs e)
-        {
-
-        }
-
     }
 }

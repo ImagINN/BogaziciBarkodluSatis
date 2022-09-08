@@ -46,16 +46,195 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="fSatis.cs">
+    <Compile Include="Controls\CntrlButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CntrlDatePicker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CntrlNumericTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\CntrlNumericTextBox.Designer.cs">
+      <DependentUpon>CntrlNumericTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CntrlTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\CntrlTextBox.Designer.cs">
+      <DependentUpon>CntrlTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\fAbone.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fSatis.Designer.cs">
+    <Compile Include="Forms\fAbone.Designer.cs">
+      <DependentUpon>fAbone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\fAboneEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\fAboneEkle.Designer.cs">
+      <DependentUpon>fAboneEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\fAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\fAdmin.Designer.cs">
+      <DependentUpon>fAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\fAyarlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\fAyarlar.Designer.cs">
+      <DependentUpon>fAyarlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\fBaslangic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\fBaslangic.Designer.cs">
+      <DependentUpon>fBaslangic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\fBedenEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\fBedenEkle.Designer.cs">
+      <DependentUpon>fBedenEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\fFiyatGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\fFiyatGuncelle.Designer.cs">
+      <DependentUpon>fFiyatGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\fGelirGider.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\fGelirGider.Designer.cs">
+      <DependentUpon>fGelirGider.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\fGelirTuruEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\fGelirTuruEkle.Designer.cs">
+      <DependentUpon>fGelirTuruEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\fGiderTuruEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\fGiderTuruEkle.Designer.cs">
+      <DependentUpon>fGiderTuruEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\fLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\fLogin.Designer.cs">
+      <DependentUpon>fLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\fNakit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\fNakit.Designer.cs">
+      <DependentUpon>fNakit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\fNakitKart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\fNakitKart.Designer.cs">
+      <DependentUpon>fNakitKart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\fRapor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\fRapor.Designer.cs">
+      <DependentUpon>fRapor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\fSatis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\fSatis.Designer.cs">
       <DependentUpon>fSatis.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="Forms\fStok.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\fStok.Designer.cs">
+      <DependentUpon>fStok.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\fUrunGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\fUrunGiris.Designer.cs">
+      <DependentUpon>fUrunGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\fUrunGrubuEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\fUrunGrubuEkle.Designer.cs">
+      <DependentUpon>fUrunGrubuEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Nesnelerim.cs" />
+    <Compile Include="Scripts\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="fSatis.resx">
+    <Compile Include="Scripts\Regulations.cs" />
+    <EmbeddedResource Include="Controls\CntrlNumericTextBox.resx">
+      <DependentUpon>CntrlNumericTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\CntrlTextBox.resx">
+      <DependentUpon>CntrlTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\fAbone.resx">
+      <DependentUpon>fAbone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\fAboneEkle.resx">
+      <DependentUpon>fAboneEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\fAdmin.resx">
+      <DependentUpon>fAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\fAyarlar.resx">
+      <DependentUpon>fAyarlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\fBaslangic.resx">
+      <DependentUpon>fBaslangic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\fBedenEkle.resx">
+      <DependentUpon>fBedenEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\fFiyatGuncelle.resx">
+      <DependentUpon>fFiyatGuncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\fGelirGider.resx">
+      <DependentUpon>fGelirGider.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\fGelirTuruEkle.resx">
+      <DependentUpon>fGelirTuruEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\fGiderTuruEkle.resx">
+      <DependentUpon>fGiderTuruEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\fLogin.resx">
+      <DependentUpon>fLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\fNakit.resx">
+      <DependentUpon>fNakit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\fNakitKart.resx">
+      <DependentUpon>fNakitKart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\fRapor.resx">
+      <DependentUpon>fRapor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\fSatis.resx">
       <DependentUpon>fSatis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\fStok.resx">
+      <DependentUpon>fStok.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\fUrunGiris.resx">
+      <DependentUpon>fUrunGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\fUrunGrubuEkle.resx">
+      <DependentUpon>fUrunGrubuEkle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -97,6 +276,123 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ara2424.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bogaziciLogo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ara32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ara24241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ara32321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backup4854.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barcode4832.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clear4848.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\defaultimage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\duzenle32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ekle20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ekle24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ekle32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enter-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Excel32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\excel4854.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit4854.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fiyatguncelletl4854.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\goz24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kartnakit1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\garbage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\garbage2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendarDark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendarDarkNew.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendarBlack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clear48481.png" />
+    <None Include="Resources\exit64.png" />
+    <None Include="Resources\settings4854.png" />
+    <None Include="Resources\admin.png" />
+    <None Include="Resources\cactus24.png" />
+    <None Include="Resources\backArrow.png" />
+    <Content Include="Resources\calendar1.png" />
+    <None Include="Resources\kayip.png" />
+    <None Include="Resources\sub64.png" />
+    <None Include="Resources\faura641.png" />
+    <None Include="Resources\warehouse.png" />
+    <None Include="Resources\stok4854.png" />
+    <None Include="Resources\rapor4854.png" />
+    <None Include="Resources\satisIslemi64.png" />
+    <None Include="Resources\faura64.png" />
+    <None Include="Resources\satisIslemi.png" />
+    <None Include="Resources\query.png" />
+    <None Include="Resources\sub.png" />
+    <None Include="Resources\iade.png" />
+    <None Include="Resources\list32.png" />
+    <None Include="Resources\lits.png" />
+    <None Include="Resources\calendar2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
